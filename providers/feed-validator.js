@@ -9,7 +9,7 @@ var thr = require('throw');
 var Xml2js = require('xml2js');
 var _ = require('lodash');
 
-var VALIDATOR_URL = 'http://validator.w3.org/feed/check.cgi';
+var VALIDATOR_URL = 'https://validator.w3.org/feed/check.cgi';
 
 /**
  * Validate feed by validator.w3.org/feed

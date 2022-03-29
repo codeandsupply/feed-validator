@@ -74,9 +74,8 @@ module.exports = function textReporter(validationData, options) {
             ''
         ] : null,
         validationData.isValid ? prepareString('All correct', 'green') : null
-    ])
-        .flatten()
-        .filter(function (item) { return item !== null; })
-        .run()
-        .join('\n');
+    ]).flatten()
+      .filter(function (item) { return item !== null; })
+      .run()
+      .join('\n');
 };
